@@ -3,27 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4EB48DB125E67AA500F0CBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DB025E67AA500F0CBAA /* AppDelegate.swift */; };
 		4EB48DB325E67AA500F0CBAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DB225E67AA500F0CBAA /* SceneDelegate.swift */; };
-		4EB48DB525E67AA500F0CBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DB425E67AA500F0CBAA /* ViewController.swift */; };
 		4EB48DB825E67AA500F0CBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB48DB625E67AA500F0CBAA /* Main.storyboard */; };
 		4EB48DBA25E67AA700F0CBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB48DB925E67AA700F0CBAA /* Assets.xcassets */; };
 		4EB48DBD25E67AA700F0CBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB48DBB25E67AA700F0CBAA /* LaunchScreen.storyboard */; };
+		4EB48DCC25E67E1000F0CBAA /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DCB25E67E1000F0CBAA /* DetailCollectionViewCell.swift */; };
+		4EB48DCF25E67E2B00F0CBAA /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DCE25E67E2B00F0CBAA /* TempViewController.swift */; };
+		4EB48DD225E67E3B00F0CBAA /* VolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DD125E67E3B00F0CBAA /* VolumeViewController.swift */; };
+		4EB48DD525E67E4F00F0CBAA /* MyRecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DD425E67E4F00F0CBAA /* MyRecipesTableViewController.swift */; };
+		4EB48DD825E67E6700F0CBAA /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DD725E67E6700F0CBAA /* AppInfoViewController.swift */; };
+		4EB48DDB25E67E7800F0CBAA /* MyRecipesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DDA25E67E7800F0CBAA /* MyRecipesTableViewCell.swift */; };
+		4EB48DDE25E67E9300F0CBAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DDD25E67E9300F0CBAA /* DetailViewController.swift */; };
+		4EB48DE225E67EB600F0CBAA /* Recipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DE025E67EB600F0CBAA /* Recipe.xcdatamodeld */; };
+		4EB48DE625E682F000F0CBAA /* Gloss in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB48DE525E682F000F0CBAA /* Gloss */; };
+		4EB48DEE25E69F2500F0CBAA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB48DED25E69F2500F0CBAA /* Realm */; };
+		4EB48DF025E69F2500F0CBAA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB48DEF25E69F2500F0CBAA /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EB48DAD25E67AA500F0CBAA /* EasyCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB48DB025E67AA500F0CBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB48DB225E67AA500F0CBAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EB48DB425E67AA500F0CBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EB48DB725E67AA500F0CBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EB48DB925E67AA700F0CBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EB48DBC25E67AA700F0CBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EB48DBE25E67AA700F0CBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB48DCB25E67E1000F0CBAA /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EB48DCE25E67E2B00F0CBAA /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		4EB48DD125E67E3B00F0CBAA /* VolumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeViewController.swift; sourceTree = "<group>"; };
+		4EB48DD425E67E4F00F0CBAA /* MyRecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipesTableViewController.swift; sourceTree = "<group>"; };
+		4EB48DD725E67E6700F0CBAA /* AppInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		4EB48DDA25E67E7800F0CBAA /* MyRecipesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipesTableViewCell.swift; sourceTree = "<group>"; };
+		4EB48DDD25E67E9300F0CBAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4EB48DE125E67EB600F0CBAA /* Recipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipe.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB48DF025E69F2500F0CBAA /* RealmSwift in Frameworks */,
+				4EB48DEE25E69F2500F0CBAA /* Realm in Frameworks */,
+				4EB48DE625E682F000F0CBAA /* Gloss in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,46 @@
 		4EB48DAF25E67AA500F0CBAA /* EasyCook */ = {
 			isa = PBXGroup;
 			children = (
-				4EB48DB025E67AA500F0CBAA /* AppDelegate.swift */,
-				4EB48DB225E67AA500F0CBAA /* SceneDelegate.swift */,
-				4EB48DB425E67AA500F0CBAA /* ViewController.swift */,
-				4EB48DB625E67AA500F0CBAA /* Main.storyboard */,
+				4EB48DC525E67DCA00F0CBAA /* AppDelegate */,
+				4EB48DC725E67DD300F0CBAA /* Controllers */,
+				4EB48DC925E67DE100F0CBAA /* View */,
 				4EB48DB925E67AA700F0CBAA /* Assets.xcassets */,
-				4EB48DBB25E67AA700F0CBAA /* LaunchScreen.storyboard */,
 				4EB48DBE25E67AA700F0CBAA /* Info.plist */,
+				4EB48DE025E67EB600F0CBAA /* Recipe.xcdatamodeld */,
 			);
 			path = EasyCook;
+			sourceTree = "<group>";
+		};
+		4EB48DC525E67DCA00F0CBAA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4EB48DB025E67AA500F0CBAA /* AppDelegate.swift */,
+				4EB48DB225E67AA500F0CBAA /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4EB48DC725E67DD300F0CBAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EB48DCB25E67E1000F0CBAA /* DetailCollectionViewCell.swift */,
+				4EB48DCE25E67E2B00F0CBAA /* TempViewController.swift */,
+				4EB48DD125E67E3B00F0CBAA /* VolumeViewController.swift */,
+				4EB48DD425E67E4F00F0CBAA /* MyRecipesTableViewController.swift */,
+				4EB48DDD25E67E9300F0CBAA /* DetailViewController.swift */,
+				4EB48DD725E67E6700F0CBAA /* AppInfoViewController.swift */,
+				4EB48DDA25E67E7800F0CBAA /* MyRecipesTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4EB48DC925E67DE100F0CBAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EB48DB625E67AA500F0CBAA /* Main.storyboard */,
+				4EB48DBB25E67AA700F0CBAA /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,11 @@
 			dependencies = (
 			);
 			name = EasyCook;
+			packageProductDependencies = (
+				4EB48DE525E682F000F0CBAA /* Gloss */,
+				4EB48DED25E69F2500F0CBAA /* Realm */,
+				4EB48DEF25E69F2500F0CBAA /* RealmSwift */,
+			);
 			productName = EasyCook;
 			productReference = 4EB48DAD25E67AA500F0CBAA /* EasyCook.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +166,10 @@
 				Base,
 			);
 			mainGroup = 4EB48DA425E67AA500F0CBAA;
+			packageReferences = (
+				4EB48DE425E682F000F0CBAA /* XCRemoteSwiftPackageReference "Gloss" */,
+				4EB48DEC25E69F2500F0CBAA /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 4EB48DAE25E67AA500F0CBAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB48DB525E67AA500F0CBAA /* ViewController.swift in Sources */,
+				4EB48DDE25E67E9300F0CBAA /* DetailViewController.swift in Sources */,
+				4EB48DCF25E67E2B00F0CBAA /* TempViewController.swift in Sources */,
+				4EB48DD525E67E4F00F0CBAA /* MyRecipesTableViewController.swift in Sources */,
+				4EB48DD225E67E3B00F0CBAA /* VolumeViewController.swift in Sources */,
+				4EB48DDB25E67E7800F0CBAA /* MyRecipesTableViewCell.swift in Sources */,
 				4EB48DB125E67AA500F0CBAA /* AppDelegate.swift in Sources */,
+				4EB48DD825E67E6700F0CBAA /* AppInfoViewController.swift in Sources */,
+				4EB48DE225E67EB600F0CBAA /* Recipe.xcdatamodeld in Sources */,
 				4EB48DB325E67AA500F0CBAA /* SceneDelegate.swift in Sources */,
+				4EB48DCC25E67E1000F0CBAA /* DetailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +408,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4EB48DE425E682F000F0CBAA /* XCRemoteSwiftPackageReference "Gloss" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hkellaway/Gloss.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+		4EB48DEC25E69F2500F0CBAA /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4EB48DE525E682F000F0CBAA /* Gloss */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EB48DE425E682F000F0CBAA /* XCRemoteSwiftPackageReference "Gloss" */;
+			productName = Gloss;
+		};
+		4EB48DED25E69F2500F0CBAA /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EB48DEC25E69F2500F0CBAA /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		4EB48DEF25E69F2500F0CBAA /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EB48DEC25E69F2500F0CBAA /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4EB48DE025E67EB600F0CBAA /* Recipe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EB48DE125E67EB600F0CBAA /* Recipe.xcdatamodel */,
+			);
+			currentVersion = 4EB48DE125E67EB600F0CBAA /* Recipe.xcdatamodel */;
+			path = Recipe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4EB48DA525E67AA500F0CBAA /* Project object */;
 }
