@@ -15,7 +15,7 @@ class TempViewController: UIViewController {
     @IBOutlet weak var tempSegmentControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     

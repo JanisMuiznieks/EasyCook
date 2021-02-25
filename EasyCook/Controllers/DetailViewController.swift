@@ -121,7 +121,7 @@ class DetailViewController: UIViewController {
 extension DetailViewController: UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return myRecipe.count
         
     }
     
@@ -130,8 +130,7 @@ extension DetailViewController: UICollectionViewDataSource, UICollectionViewDele
         
         let pins = myRecipe[indexPath.row]
         print(pins.image as Any)
-        
-        
+       
         
         let imageview : UIImageView = UIImageView(frame: CGRect(x: 50, y: 0, width: 200, height: 200));
         

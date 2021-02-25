@@ -17,6 +17,7 @@ class AppInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         appDescLabel.text = appDescText
         
         if !infoText.isEmpty {

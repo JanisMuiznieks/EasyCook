@@ -12,5 +12,7 @@ class DetailCollectionViewCell: UICollectionViewCell {
    
     @IBOutlet weak var recipeImageView: UIView!
     
-    
+    func setUI(with: Recipes){
+        
+    }
 }
