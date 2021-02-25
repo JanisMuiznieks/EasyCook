@@ -77,7 +77,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xdz-4E-fqp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DLA-iH-mFl"/>
                             <constraint firstItem="Xdz-4E-fqp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zy4-0d-cV5"/>
@@ -173,7 +173,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4RD-Y4-0be"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Recipes" id="KwS-uo-2iF">
                         <barButtonItem key="leftBarButtonItem" id="hLk-SI-kdr">
@@ -246,7 +246,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="243" height="237"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2021-02-25 at 20.03.13" translatesAutoresizingMaskIntoConstraints="NO" id="757-qu-8wo">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="easyCook2" translatesAutoresizingMaskIntoConstraints="NO" id="757-qu-8wo">
                                                                             <rect key="frame" x="0.0" y="0.0" width="243" height="237"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="239" id="1NY-hq-LGP"/>
@@ -358,7 +358,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RnY-Sy-PtH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4B7-Wc-ade" firstAttribute="leading" secondItem="RnY-Sy-PtH" secondAttribute="leading" constant="20" id="8hn-mP-sgv"/>
                             <constraint firstItem="RnY-Sy-PtH" firstAttribute="trailing" secondItem="4B7-Wc-ade" secondAttribute="trailing" constant="20" id="Tbk-EU-oN8"/>
@@ -467,7 +467,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uaG-ea-yZB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="p7O-Te-0j7" firstAttribute="centerX" secondItem="zTr-Wh-ng0" secondAttribute="centerX" id="Bmf-9l-UlW"/>
                             <constraint firstItem="p7O-Te-0j7" firstAttribute="centerY" secondItem="zTr-Wh-ng0" secondAttribute="centerY" id="KyX-9K-6D0"/>
@@ -532,7 +532,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HiD-ax-ku6"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="B6E-Xg-N0G" firstAttribute="centerX" secondItem="wXq-z4-ctL" secondAttribute="centerX" id="ftD-JL-hff"/>
                             <constraint firstItem="B6E-Xg-N0G" firstAttribute="centerY" secondItem="wXq-z4-ctL" secondAttribute="centerY" id="zSt-NE-lXE"/>
@@ -595,7 +595,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="d74-dA-3mu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groceryListCell" textLabel="mD5-Bn-AEf" detailTextLabel="Uvv-57-faa" style="IBUITableViewCellStyleValue1" id="j58-Id-avJ">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -669,7 +669,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FCc-Fu-sc1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.91075283289999998" green="0.90254634619999996" blue="0.85550671820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tasksCell" textLabel="CkO-rf-G56" detailTextLabel="dIw-53-9FY" style="IBUITableViewCellStyleSubtitle" id="lpG-yt-rcr">
                                 <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
@@ -762,12 +762,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vrN-MX-Prk"/>
+        <segue reference="bsn-Ww-HLC"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="WhatsApp Image 2021-02-25 at 20.03.13" width="1080" height="1080"/>
         <image name="book" catalog="system" width="128" height="102"/>
         <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="easyCook2" width="1600" height="1137"/>
         <image name="homepod" catalog="system" width="114" height="128"/>
         <image name="homepod.fill" catalog="system" width="114" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
