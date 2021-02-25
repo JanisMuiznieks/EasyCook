@@ -23,6 +23,12 @@
 		4EB48DE625E682F000F0CBAA /* Gloss in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB48DE525E682F000F0CBAA /* Gloss */; };
 		4EB48DEE25E69F2500F0CBAA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB48DED25E69F2500F0CBAA /* Realm */; };
 		4EB48DF025E69F2500F0CBAA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB48DEF25E69F2500F0CBAA /* RealmSwift */; };
+		4EB48DF825E6EE3700F0CBAA /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DF725E6EE3700F0CBAA /* RecipeList.swift */; };
+		4EB48DFD25E6EEF500F0CBAA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DFC25E6EEF500F0CBAA /* StorageManager.swift */; };
+		4EB48E0025E6EFC100F0CBAA /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48DFF25E6EFC100F0CBAA /* GroceryList.swift */; };
+		4EB48E0325E6F1A100F0CBAA /* Groceries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48E0225E6F1A100F0CBAA /* Groceries.swift */; };
+		4EB48E0625E6F47E00F0CBAA /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48E0525E6F47E00F0CBAA /* GroceryListTableViewController.swift */; };
+		4EB48E0925E6F48F00F0CBAA /* GroceriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB48E0825E6F48F00F0CBAA /* GroceriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,12 @@
 		4EB48DDA25E67E7800F0CBAA /* MyRecipesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipesTableViewCell.swift; sourceTree = "<group>"; };
 		4EB48DDD25E67E9300F0CBAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4EB48DE125E67EB600F0CBAA /* Recipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipe.xcdatamodel; sourceTree = "<group>"; };
+		4EB48DF725E6EE3700F0CBAA /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		4EB48DFC25E6EEF500F0CBAA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		4EB48DFF25E6EFC100F0CBAA /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
+		4EB48E0225E6F1A100F0CBAA /* Groceries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groceries.swift; sourceTree = "<group>"; };
+		4EB48E0525E6F47E00F0CBAA /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		4EB48E0825E6F48F00F0CBAA /* GroceriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,8 @@
 		4EB48DAF25E67AA500F0CBAA /* EasyCook */ = {
 			isa = PBXGroup;
 			children = (
+				4EB48DFB25E6EEE000F0CBAA /* StorageManager */,
+				4EB48DF625E6EE2000F0CBAA /* Model */,
 				4EB48DC525E67DCA00F0CBAA /* AppDelegate */,
 				4EB48DC725E67DD300F0CBAA /* Controllers */,
 				4EB48DC925E67DE100F0CBAA /* View */,
@@ -105,6 +119,8 @@
 				4EB48DDD25E67E9300F0CBAA /* DetailViewController.swift */,
 				4EB48DD725E67E6700F0CBAA /* AppInfoViewController.swift */,
 				4EB48DDA25E67E7800F0CBAA /* MyRecipesTableViewCell.swift */,
+				4EB48E0525E6F47E00F0CBAA /* GroceryListTableViewController.swift */,
+				4EB48E0825E6F48F00F0CBAA /* GroceriesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -116,6 +132,24 @@
 				4EB48DBB25E67AA700F0CBAA /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4EB48DF625E6EE2000F0CBAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EB48DF725E6EE3700F0CBAA /* RecipeList.swift */,
+				4EB48DFF25E6EFC100F0CBAA /* GroceryList.swift */,
+				4EB48E0225E6F1A100F0CBAA /* Groceries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EB48DFB25E6EEE000F0CBAA /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EB48DFC25E6EEF500F0CBAA /* StorageManager.swift */,
+			);
+			path = StorageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,11 +234,17 @@
 				4EB48DDE25E67E9300F0CBAA /* DetailViewController.swift in Sources */,
 				4EB48DCF25E67E2B00F0CBAA /* TempViewController.swift in Sources */,
 				4EB48DD525E67E4F00F0CBAA /* MyRecipesTableViewController.swift in Sources */,
+				4EB48E0925E6F48F00F0CBAA /* GroceriesTableViewController.swift in Sources */,
+				4EB48DFD25E6EEF500F0CBAA /* StorageManager.swift in Sources */,
 				4EB48DD225E67E3B00F0CBAA /* VolumeViewController.swift in Sources */,
+				4EB48E0025E6EFC100F0CBAA /* GroceryList.swift in Sources */,
 				4EB48DDB25E67E7800F0CBAA /* MyRecipesTableViewCell.swift in Sources */,
+				4EB48E0625E6F47E00F0CBAA /* GroceryListTableViewController.swift in Sources */,
 				4EB48DB125E67AA500F0CBAA /* AppDelegate.swift in Sources */,
+				4EB48DF825E6EE3700F0CBAA /* RecipeList.swift in Sources */,
 				4EB48DD825E67E6700F0CBAA /* AppInfoViewController.swift in Sources */,
 				4EB48DE225E67EB600F0CBAA /* Recipe.xcdatamodeld in Sources */,
+				4EB48E0325E6F1A100F0CBAA /* Groceries.swift in Sources */,
 				4EB48DB325E67AA500F0CBAA /* SceneDelegate.swift in Sources */,
 				4EB48DCC25E67E1000F0CBAA /* DetailCollectionViewCell.swift in Sources */,
 			);

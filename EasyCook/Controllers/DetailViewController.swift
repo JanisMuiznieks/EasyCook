@@ -15,18 +15,28 @@ class DetailViewController: UIViewController {
        
     var titleString = String()
     var categoryString = String()
+    var servingsString = String()
+    var minToMakeString = String()
+    var contentString = String()
     
     @IBOutlet weak var titleLabel: UILabel!
-    
     @IBOutlet weak var categoryLabel: UILabel!
-    
     @IBOutlet weak var recipeView: UICollectionView!
+    
+    @IBOutlet weak var minToMakeLabel: UILabel!
+    
+    @IBOutlet weak var servingsLabel: UILabel!
+    
+    @IBOutlet weak var contentLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = titleString
         categoryLabel.text = categoryString
+        minToMakeLabel.text = "Minutes to Make: \(minToMakeString)"
+        servingsLabel.text = "Serving for: \(servingsString)"
+        contentLabel.text = contentString
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         context = appDelegate.persistentContainer.viewContext
         loadData()
@@ -111,7 +121,8 @@ class DetailViewController: UIViewController {
 extension DetailViewController: UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return myRecipe.count
+        return 1
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -120,12 +131,17 @@ extension DetailViewController: UICollectionViewDataSource, UICollectionViewDele
         let pins = myRecipe[indexPath.row]
         print(pins.image as Any)
         
+        
+        
         let imageview : UIImageView = UIImageView(frame: CGRect(x: 50, y: 0, width: 200, height: 200));
+        
+        
         
         if let imageData = pins.value(forKey: "image") as? NSData {
             if let dataImage = UIImage(data:imageData as Data) {
                 imageview.image = dataImage
                 cell.contentView.addSubview(imageview)
+               
             }
         }
         

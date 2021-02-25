@@ -7,10 +7,13 @@
 
 import UIKit
 import CoreData
+import RealmSwift
+
 
 class MyRecipesTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var myRecipe: [Recipes] = []
     var context: NSManagedObjectContext?
+    private var isEditingMode = false
     
     @IBOutlet weak var tableView: UITableView!
     override func viewWillAppear(_ animated: Bool) {
@@ -54,15 +57,37 @@ class MyRecipesTableViewController: UIViewController, UITableViewDelegate, UITab
             textField.autocapitalizationType = .sentences
             textField.autocorrectionType = .no
         }
+        alertController.addTextField { (textField: UITextField) in
+            textField.placeholder = "Enter For How Many You Can Serve"
+            textField.autocapitalizationType = .sentences
+            textField.autocorrectionType = .no
+        }
+        alertController.addTextField { (textField: UITextField) in
+            textField.placeholder = "Enter Time To Make Recipes"
+            textField.autocapitalizationType = .sentences
+            textField.autocorrectionType = .no
+        }
+        alertController.addTextField { (textField: UITextField) in
+            textField.placeholder = "Enter Recipes Description"
+            textField.autocapitalizationType = .sentences
+            textField.autocorrectionType = .no
+        }
+
         
         let addAction = UIAlertAction(title: "Add", style: .cancel) { (action: UIAlertAction) in
             let firstTextField = alertController.textFields![0]
             let secondTextField = alertController.textFields![1]
+            let thirdTextField = alertController.textFields![2]
+            let fourthTextField = alertController.textFields![3]
+            let fifthTextField = alertController.textFields![4]
             
             let entity = NSEntityDescription.entity(forEntityName: "Recipes", in: self.context!)
             let item = NSManagedObject(entity: entity!, insertInto: self.context)
             item.setValue(firstTextField.text, forKey: "title")
             item.setValue(secondTextField.text, forKey: "category")
+            item.setValue(thirdTextField.text, forKey: "servings")
+            item.setValue(fourthTextField.text, forKey: "minutesToMake")
+            item.setValue(fifthTextField.text, forKey: "content")
             //save function
             self.saveData()
             
@@ -148,6 +173,9 @@ class MyRecipesTableViewController: UIViewController, UITableViewDelegate, UITab
         
         vc.titleString = myRecipe[indexPath.row].title ?? ""
         vc.categoryString = myRecipe[indexPath.row].category ?? ""
+        vc.contentString = myRecipe[indexPath.row].content ?? ""
+        vc.minToMakeString = myRecipe[indexPath.row].minutesToMake ?? ""
+        vc.servingsString = myRecipe[indexPath.row].servings ?? ""
             
         
         

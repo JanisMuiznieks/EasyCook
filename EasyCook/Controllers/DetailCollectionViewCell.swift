@@ -12,4 +12,5 @@ class DetailCollectionViewCell: UICollectionViewCell {
    
     @IBOutlet weak var recipeImageView: UIView!
     
+    
 }
