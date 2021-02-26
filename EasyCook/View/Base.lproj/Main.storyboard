@@ -246,7 +246,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="243" height="237"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="easyCook2" translatesAutoresizingMaskIntoConstraints="NO" id="757-qu-8wo">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EasyCookRecipes" translatesAutoresizingMaskIntoConstraints="NO" id="757-qu-8wo">
                                                                             <rect key="frame" x="0.0" y="0.0" width="243" height="237"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="239" id="1NY-hq-LGP"/>
@@ -554,6 +554,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="e2I-kl-nnW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fsd-Fq-61X">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -765,9 +766,9 @@
         <segue reference="bsn-Ww-HLC"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="EasyCookRecipes" width="1600" height="1137"/>
         <image name="book" catalog="system" width="128" height="102"/>
         <image name="cart" catalog="system" width="128" height="102"/>
-        <image name="easyCook2" width="1600" height="1137"/>
         <image name="homepod" catalog="system" width="114" height="128"/>
         <image name="homepod.fill" catalog="system" width="114" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
